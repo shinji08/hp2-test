@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+.service {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.inner {
+  max-width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.intro {
+  width: 40%;
+}
+
+.section_ttl {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.section_ttl small {
+  border-left: solid 8px #75a9ff;
+  padding-right: 10px;
+}
+
+.intro_txt {
+  font-size: 18px;
+}
+
+/* サービス */
+.section_ttl {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.section_ttl small {
+  border-left: solid 8px #75a9ff;
+  padding-right: 10px;
+}
+
+.intro_txt {
+  font-size: 18px;
+}
+
+.service_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service_item {
+  width: 48%;
+  height: 480px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 20px #ddd;
+  box-shadow: 10px 10px 20px #ddd;
+  position: relative;
+  margin: 10% 0;
+}
+
+.service_item._service1 {
+
+}
+
+.service_item._service3 {
+  bottom: 150px;
+}
+
+.service_item._service3 {
+  bottom: 65px;
+  margin: 0;
+}
+
+.service_item._service4 {
+  bottom: 320px;
+  margin: 0;
+}
+
+
+.service_inner_txt img {
+  width: 400px;
+  height: 250px;
+  margin-left: 10px;
+}
+
+.service_item._service2 {
+
+}
+
+.service_inner_txt_img img {
+  width: 400px;
+  height: 250px;
+} 
+
+
+.service_subttl {
+  margin-bottom: 10px;
+  padding-left: 40px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.service_ttl {
+  font-size: 25px;
+  font-weight: 700;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.service_ttl strong {
+  background: linear-gradient(transparent 60%, #75a9ff);
+}
+
+.service_descript {
+  font-size: 15px;
+}
+
+.service_descript span {
+  font-size: 26px;
+  margin-left: 160px;
+}
+
+.btn {
+  background: #000;
+  padding: 20px 30px;
+  width: 17%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+/* レスポンシブ */
+/* ipad pro */
+@media screen and(max-width: 1024px) {
+  
+}
+
+
+
+/* ipad */
+@media screen and (max-width: 768px) {
+
+
+  .service_item {
+    display: block;
+    width: 80%;
+    margin: 0 auto 10%;
+    height: 120%;
+  }
+
+  .service_item._service2,
+  .service_item._service3,
+  .service_item._service4 {
+    bottom: 0;
+    margin: 0 auto 10%;
+  }
+
+  .intro {
+    width: 100%;
+  }
+
+  .intro_txt {
+    margin-bottom: 50px;
+  }
+
+  .about_sub_ttl {
+    padding-top: 20px;
+  }
+}
+
+
+/* スマホ */
+@media screen and (max-width: 480px) {
+  .service_item {
+    width: 100%;
+    margin: 0 0 10%;
+    height: auto;
+  }
+
+  .service_inner_txt {
+    left: 46%;
+  }
+
+  .service_inner_txt img {
+    width: 280px;
+    height: 250px;
+    margin-left: 10px;
+  }
+}
